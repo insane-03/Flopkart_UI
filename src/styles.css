@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+.table-container{
+    display: inline-block;
+    border: 1px solid black;
+    width: 160px;
+    margin: 10px 5px;
+}
+
+.table{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.table img{
+    width: 140px;
+    height: 140px;
+}
